@@ -1,0 +1,24 @@
+Package: org.franky.mote
+Name: Mote
+Version: 0.1.0-1
+Architecture: iphoneos-arm64
+Section: Games
+Priority: optional
+Maintainer: Franky
+Author: Franky
+Depends: firmware (>= 16.0), firmware (<< 17.0), uikittools (>= 2.1.2)
+Installed-Size: 529
+Description: An experimental connectome-driven pocket creature.
+ Touch, light and tilt feed a local 668-neuron model.
+ Experimental rootless iOS 16 build; device acceptance pending.
+ Circuit data: CC BY-NC 4.0; attribution included.
+Homepage: https://frankyfurt101.github.io/mote-repo/
+Depiction: https://frankyfurt101.github.io/mote-repo/
+Icon: https://frankyfurt101.github.io/mote-repo/icon.png
+Filename: pool/org.franky.mote_0.1.0-1_iphoneos-arm64.deb
+Size: 165896
+MD5sum: 250db0acf576ef06ca6ec3245facb00f
+SHA1: 1dc09f662f9cff8fe55171f16d2801e2e80a4261
+SHA256: ebbf3a408a4a1c60aa5a7ef82973270922b028577893a7ed396d3b4a23d7533c
+SHA512: c81847fc86155322c8c03165a8d0f6ee90684d041f08b96c2c959a71fbd7f0cef65e66d81bbc75c2dd2c0a1994fee4589a1def53c51e01d2cbceb3221cdffcdf
+

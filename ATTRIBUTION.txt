@@ -1,0 +1,35 @@
+# Circuit provenance and license
+
+The bundled initial circuit is **FlyWire FAFB v783**, a curated 668-neuron
+escape/steering subgraph. It is **not the male-CNS dataset** from Franky's
+earlier project. That bulk acquisition is blocked in this execution session.
+
+Retrieved as data only from:
+https://github.com/imrizwan/flywire-cortex/blob/a72a0b04d9cdf7383f57a0e0186b9bb1e9c1ae45/data/circuit.seed.json
+
+Curator: imrizwan/flywire-cortex contributors. Their source file describes the
+extract as `FlyWire Codex FAFB v783 connections.csv (syn>=5, signed by nt_type)`.
+Their ETL was inspected at the same commit; it signs contact counts by predicted
+transmitter. Inhibitory glutamate, positive fallback for missing transmitter,
+and half-strength monoamines are **model assumptions**, not measured individual
+synaptic physiology. The original bulk contacts have not been independently
+revalidated in this session. Source SHA-256 and processed counts are recorded in
+`evidence/circuit-build.json` and inside the application bundle.
+
+Original research:
+
+- Dorkenwald, S. et al. *Neuronal wiring diagram of an adult brain.* Nature 634,
+  124–138 (2024). https://doi.org/10.1038/s41586-024-07558-y
+- Schlegel, P. et al. *Whole-brain annotation and multi-connectome cell typing of
+  Drosophila.* Nature 634, 139–152 (2024).
+  https://doi.org/10.1038/s41586-024-07686-5
+- FlyWire Consortium: https://flywire.ai/ and https://codex.flywire.ai/
+
+The curated circuit and derived data remain **CC BY-NC 4.0**, for attributed,
+non-commercial use: https://creativecommons.org/licenses/by-nc/4.0/ . Do not
+treat the original simulation code's license as relicensing the circuit data.
+
+The neuron model, adaptation, light/tilt/loom input assignment, and motor decoder
+in Mote are authored mathematical assumptions. No learning is implemented.
+Different trajectories do not establish a biological advantage. No complete
+brain simulation, animal-behavior equivalence, or consciousness is claimed.

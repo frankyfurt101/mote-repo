@@ -1,0 +1,60 @@
+{
+  "dataset": "FlyWire FAFB v783 proofread whole brain",
+  "neurons": 139255,
+  "connection_rows": 16847997,
+  "represented_synapses": 54492922,
+  "minimum_synapses_per_row": 1,
+  "dropped_rows": 0,
+  "dropped_neurons": 0,
+  "connection_row_meaning": "Presynaptic neuron, postsynaptic neuron and neuropil; duplicate neuron pairs across neuropils retained.",
+  "binary_bytes": 205518120,
+  "binary_sha256": "21d0d4a38bef19c7fabd784607b32147ce79af042f68f8b1b4e2fd0415dbbfe5",
+  "source_sha256": "24f960ae3e7d4f8cd30db3b62e99fb5179cc3d1e76d8c155bfb441e9737d3faf",
+  "source_md5": "f48f972d262323a102aed49af1396b8a",
+  "source_url": "https://zenodo.org/records/10676866",
+  "source_license": "CC BY 4.0",
+  "annotation_source": {
+    "url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/a83b2776d60d5764cef36b927f5f9679c16c47a2/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+    "commit": "a83b2776d60d5764cef36b927f5f9679c16c47a2",
+    "sha256": "b214970b55d2fbe0853bba536fdcb9e28730f4eb7ab06f600491df795da683cd"
+  },
+  "annotations_matched": 139241,
+  "unannotated_ids": [
+    "720575940606792881",
+    "720575940607862706",
+    "720575940613336473",
+    "720575940613437206",
+    "720575940619169349",
+    "720575940623450077",
+    "720575940623913933",
+    "720575940625523749",
+    "720575940626741265",
+    "720575940628159081",
+    "720575940633242449",
+    "720575940636488667",
+    "720575940639387763",
+    "720575940642560987"
+  ],
+  "position_count": 139241,
+  "position_projection": "Annotation pos_x * 4 nm, pos_z * 40 nm; normalized dorsal projection; not skeleton geometry.",
+  "neurotransmitter_counts": {
+    "acetylcholine": 79743,
+    "gaba": 18297,
+    "histamine": 11127,
+    "glutamate": 22032,
+    "serotonin": 1865,
+    "dopamine": 5873,
+    "octopamine": 112,
+    "": 192
+  },
+  "groups": {
+    "visual_left": 5941,
+    "visual_right": 5526,
+    "mechanosensory": 2667,
+    "olfactory": 2281,
+    "descending_left": 654,
+    "descending_right": 657
+  },
+  "model": "Authored normalized signed leaky-rate model with adaptation. GABA/glutamate/histamine inhibitory; other/unknown transmitters positive; modulators simplified. No learning.",
+  "model_dt": 0.03333333333333333
+}

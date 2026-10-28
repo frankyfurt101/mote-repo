@@ -9,7 +9,8 @@ Add this source in Sileo: https://frankyfurt101.github.io/mote-repo/
 - **Mote Atlas 0.1.0-1**: separate app with the whole proofread FlyWire v783
   graph (139,255 neurons, 54,492,922 represented synapses), native Metal/CPU
   modes, activity map, sensory inputs and wiring experiments. About 75 MB to
-  download and 206 MB installed. Physical XR launch/performance pending.
+  download and 206 MB installed. Creature display and GPU / Metal mode confirmed on the XR by Franky.
+  Physical-device performance has not been measured.
 
 Refresh Sources and search for the app name. Atlas does not replace Mote.
 Both install under /var/jb/Applications. Installer scripts register their own

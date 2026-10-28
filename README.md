@@ -1,6 +1,6 @@
 # Franky’s Lab packages
 
-Public compiled downloads for Mote and Mote Atlas on rootless iOS 16.
+Public compiled downloads for Mote, Mote Atlas and Mote Darwin on rootless iOS 16.
 Source code is maintained in separate private repositories.
 
 Add this source in Sileo: https://frankyfurt101.github.io/mote-repo/
@@ -12,11 +12,16 @@ Add this source in Sileo: https://frankyfurt101.github.io/mote-repo/
   download and 206 MB installed. Creature display and GPU / Metal mode confirmed on the XR by Franky.
   Physical-device performance has not been measured.
 
-Refresh Sources and search for the app name. Atlas does not replace Mote.
-Both install under /var/jb/Applications. Installer scripts register their own
+- **Mote Darwin 0.1.0-1**: separate full-connectome evolution app. Sixteen
+  candidates, 472 inherited neural parameters, food trials, saved champions and
+  unfamiliar-map comparisons. Compiled Metal shaders, local training and colony
+  export. About 75 MB download. Mac/simulator tests pass; XR acceptance pending.
+
+Refresh Sources and search for the app name. Each app installs separately.
+All three install under /var/jb/Applications. Installer scripts register their own
 icons with uicache; they do not reboot the phone or alter jailbreak files.
 
 These are authored experiments using real connectivity, not validated animal
 brain emulations or recovered memories. Mote’s curated data is CC BY-NC 4.0;
-Atlas’s connectivity release is CC BY 4.0. See ATTRIBUTION.txt and
-ATLAS-ATTRIBUTION.txt for sources, transformations and annotation citations.
+Atlas and Darwin connectivity releases are CC BY 4.0. See ATTRIBUTION.txt and
+ATLAS-ATTRIBUTION.txt / DARWIN-ATTRIBUTION.txt for sources, transformations and annotation citations.

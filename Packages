@@ -46,3 +46,27 @@ SHA1: ceb8a9290f031557b85057bd27296923ee6ff01f
 SHA256: e3d7e0eb96f71ea87dab02cf88adb73cb5a23c82838f7daf556937a20d061c2d
 SHA512: de9f24fc0dca373721dad54405dbe2d881c74c45d01c47e3cb21d9374d68df6b27611c5a9f5cfb9792bb44248269143989556e0bc542e60db6612966763def8d
 
+Package: org.franky.mote.darwin
+Name: Mote Darwin
+Version: 0.1.0-1
+Architecture: iphoneos-arm64
+Section: Games
+Priority: optional
+Maintainer: Franky
+Author: Franky
+Depends: firmware (>= 16.0), firmware (<< 17.0), uikittools (>= 2.1.2)
+Installed-Size: 201267
+Description: Full-connectome evolution with 16 candidate flies.
+ Includes all proofread FlyWire v783 connections and 54492922 synapses.
+ Metal batches, 472 inherited parameters, food trials and saved lineages.
+ Separate app from Mote and Atlas. Genetic selection; no within-life learning.
+Homepage: https://frankyfurt101.github.io/mote-repo/darwin.html
+Depiction: https://frankyfurt101.github.io/mote-repo/darwin.html
+Icon: https://frankyfurt101.github.io/mote-repo/darwin-icon.png
+Filename: pool/org.franky.mote.darwin_0.1.0-1_iphoneos-arm64.deb
+Size: 75275120
+MD5sum: cb8a8871579ace5f993140e898d11b7a
+SHA1: 179a34f031b07453837c7e424a6c594226d6392e
+SHA256: a3572c135f70468bc4ee28d4fb644b67dee92dd8a4762128aa47c4f4ec1390ae
+SHA512: 83c197553fefcf0e506c9ab0096b39446c06a5a9d32423b3d2f813990862fc20be438f8e9dd5afee483fca07e5901bb8c0bdb242097e9b4ac63af0180e85f63c
+

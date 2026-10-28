@@ -1,0 +1,60 @@
+# Mote Darwin data attribution
+
+Mote Darwin is an independent experimental application, not an official FlyWire product.
+
+## Connectivity
+
+FlyWire Consortium, **FlyWire Whole-brain Connectome Connectivity Data**, release 783.0 (2024).
+https://doi.org/10.5281/zenodo.10676866
+License recorded by the release: **Creative Commons Attribution 4.0 International**.
+https://creativecommons.org/licenses/by/4.0/
+
+Inputs: `proofread_root_ids_783.npy` and `proofread_connections_783.feather`.
+The binary export changes storage order and representation. Every proofread ID,
+every connection row and its synapse count is preserved; no extra count threshold
+is applied. Neuropil labels and per-row transmitter probability vectors are not
+included in the runtime binary. See manifest.json for hashes and exact counts.
+
+Contributing work:
+- Dorkenwald et al. (2024), *Neuronal wiring diagram of an adult brain*.
+  https://doi.org/10.1038/s41586-024-07558-y
+- Buhmann et al. (2021), automatic synaptic partner prediction.
+  https://doi.org/10.1038/s41592-021-01183-7
+- Heinrich et al. (2018), synaptic cleft segmentation.
+  https://doi.org/10.1007/978-3-030-00934-2_36
+- Eckstein, Bates et al. (2024), neurotransmitter prediction.
+  https://www.cell.com/cell/fulltext/S0092-8674(24)00307-6
+
+## Neuron annotations
+
+Derived sensory/output flags, transmitter classifications and anchor positions
+come from flyconnectome/flywire_annotations, pinned commit
+`a83b2776d60d5764cef36b927f5f9679c16c47a2`:
+https://github.com/flyconnectome/flywire_annotations
+
+The upstream repository requests the following citations for its current data:
+- Schlegel et al. (2024), *Whole-brain annotation and multi-connectome cell typing of Drosophila*.
+  https://doi.org/10.1038/s41586-024-07686-5
+- Matsliah et al. (2024), *Neuronal parts list and wiring diagram for a visual system*.
+  https://doi.org/10.1038/s41586-024-07981-1
+- Berg et al. (2026), *Sexual dimorphism in the complete Drosophila male central nervous system connectome*.
+  https://doi.org/10.1016/j.cell.2026.08.015
+- Tastekin et al. (2026), *The complete gustatory connectome of adult Drosophila reveals how taste guides feeding, foraging, and social behavior*.
+  https://doi.org/10.1016/j.cell.2026.08.016
+- Dorkenwald et al. (2024), cited above.
+
+The annotation repository has no separate LICENSE file at the pinned revision;
+the connectivity release's license is not asserted to cover that repository.
+Original annotation tables are fetched for reproducibility and are not republished
+in the package. Positions are neuron anchor coordinates, not complete skeletons.
+
+## Authored model
+
+The simulation equations, normalized signed weights, sensory stimulus strengths,
+adaptation, visual sampling and creature motor mapping are authored choices.
+GABA, glutamate and explicitly annotated histamine are modeled as inhibitory;
+other/unknown transmitters are treated as excitatory. Modulatory, receptor,
+cell-specific physiological and synapse-time dynamics are not reconstructed.
+Darwin optimizes 472 inherited group parameters by genetic selection between generations. It does not implement within-lifetime learning, recover memories, claim consciousness or establish biological validation.
+The full proofread graph does not include every unproofread fragment in the
+larger raw synapse table. Raw microscopy images are not part of this application.

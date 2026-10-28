@@ -11,7 +11,7 @@ After GitHub Pages has finished publishing, add this source in Sileo:
 https://frankyfurt101.github.io/mote-repo/
 
 Open **Sileo → Sources → +**, paste that URL, refresh, and install **Mote**.
-Version: `0.1.1-1`, architecture: `iphoneos-arm64`.
+Version: `0.1.2-1`, architecture: `iphoneos-arm64`.
 
 The app installs under `/var/jb/Applications/Mote.app` while the existing
 rootless jailbreak is active. Version 0.1.0 installed on the XR but showed a blank screen. Version 0.1.1

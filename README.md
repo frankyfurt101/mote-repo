@@ -12,10 +12,11 @@ Add this source in Sileo: https://frankyfurt101.github.io/mote-repo/
   download and 206 MB installed. Creature display and GPU / Metal mode confirmed on the XR by Franky.
   Physical-device performance has not been measured.
 
-- **Mote Darwin 0.1.0-1**: separate full-connectome evolution app. Sixteen
+- **Mote Darwin 0.1.1-1**: separate full-connectome evolution app. Sixteen
   candidates, 472 inherited neural parameters, food trials, saved champions and
   unfamiliar-map comparisons. Compiled Metal shaders, local training and colony
-  export. About 75 MB download. Mac/simulator tests pass; XR acceptance pending.
+  export. Version 0.1.1 adds read-only USB status, logs and training history.
+  About 75 MB download. Mac/simulator tests pass; XR diagnostics acceptance pending.
 
 Refresh Sources and search for the app name. Each app installs separately.
 All three install under /var/jb/Applications. Installer scripts register their own

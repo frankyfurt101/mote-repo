@@ -71,26 +71,26 @@ SHA256: 4f38cf758938c34a91afdcd747864cf1c35ea79a43fb0d7862738b86edb32920
 SHA512: d0a821276e0c1ee58956c6486fc1f23386e1d992e7de52adcfa365f2e12fc33ade4fe527bd5ac50be9413e91f019aa832bda6dbd67fde1d9b510c79f52143cc3
 
 Package: org.franky.mote.colony
-Name: Mote Colony
-Version: 0.1.0-1
+Name: Mote Village
+Version: 0.2.0-1
 Architecture: iphoneos-arm64
 Section: Games
 Priority: optional
 Maintainer: Franky
 Author: Franky
 Depends: firmware (>= 16.0), firmware (<< 17.0), uikittools (>= 2.1.2)
-Installed-Size: 201252
-Description: Four autonomous woodland creatures with full fly connectomes.
- Gather food, chop wood, mine stone and build a cozy home together.
- Independent brain states; native 2D graphics; automatic colony saves.
- Authored survival rules with connectome-driven movement. No further training.
+Installed-Size: 206319
+Description: An autonomous village with four fly brains and a local AI council.
+ Build a lodge, garden, granary, workshop, well and cottage.
+ Optional 533 MB council download runs locally after setup.
+ Upgrades Mote Colony, preserving its save. No further training.
 Homepage: https://frankyfurt101.github.io/mote-repo/colony.html
 Depiction: https://frankyfurt101.github.io/mote-repo/colony.html
 Icon: https://frankyfurt101.github.io/mote-repo/colony-icon.png
-Filename: pool/org.franky.mote.colony_0.1.0-1_iphoneos-arm64.deb
-Size: 75268114
-MD5sum: bc195df52293bc8e0c3ffebcd15913be
-SHA1: 55f85cd6a418dedbc48abe6bc97a0c03f817b287
-SHA256: 2332e7260bc54e5398b95a617513072799b4210eff3dbbd6714852a72010b8ec
-SHA512: f1a6314654b3ea2330c78f142c93f776e7a8f0f21148f8ed7d226d33c213413c0d0f6313ef9158886eb5cc9f24ce558b1d2fe71813c1ed6bade6532d7e9421b3
+Filename: pool/org.franky.mote.colony_0.2.0-1_iphoneos-arm64.deb
+Size: 77208212
+MD5sum: 245ee02be69ff933119e05821b64324f
+SHA1: 64cbdb8627112c845e261fd50473959cf298e7ca
+SHA256: 9fdfa1c0c998a94fbc57d0b3de635dde6f908826842e64a22c7a0780c1374157
+SHA512: d314cadf9d586378698c37ce555143e0cf780df0fb92e327b6e9e90d4e654f44d7fffd55e38c34f7c3195538e0fe06a1a61c4dcee9a28a97f350d3a16388e1e6
 
